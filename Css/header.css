@@ -122,25 +122,25 @@ margin-bottom: 15rem;
 
 /* Responsividade - Telas menores que 480px */
 @media (max-width: 480px) {
-    /* Ajustes adicionais para telas muito pequenas */
+   
     #icone p {
-        font-size: 1.2rem; /* Ajusta o tamanho do texto do ícone */
+        font-size: 1.2rem; 
     }
 
     .videoFundo {
-        height: 40vh; /* Menor altura do vídeo em telas muito pequenas */
+        height: 40vh; 
     }
 
     #fraseEfeito h1 {
-        font-size: 1.5rem; /* Reduz ainda mais o tamanho da frase */
+        font-size: 1.5rem; 
         margin-top: 3em;
     }
 
     #menu a {
-        font-size: 1rem; /* Reduz o tamanho da fonte dos links */
+        font-size: 1rem; 
     }
 
     #menu {
-        gap: 0.5rem; /* Menor espaçamento entre os links */
+        gap: 0.5rem; 
     }
 }
