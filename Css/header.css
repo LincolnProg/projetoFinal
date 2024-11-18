@@ -1,0 +1,146 @@
+
+.videoFundo {
+    position: absolute; 
+    width: 100%;
+    height: 60vh;
+    z-index: 1; 
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.menuSuperior {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    color: #ffff;
+    font-size: 1.2rem;
+    z-index: 2; 
+}
+
+
+#icone {
+    display: flex;
+}
+
+#icone img {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+
+#menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#menu a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 1rem;
+} 
+
+#fraseEfeito h1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 30rem;
+    text-align: center;
+    color: #ffff;
+    font-size: 2.5rem; 
+    z-index: 3;
+}
+#icone p{
+color: #000; 
+margin-top: 0.5rem; 
+margin-left: -3rem;
+font-size: 1.5rem
+} 
+
+
+.servicos24{
+display: flex; 
+margin-bottom: 15rem;
+} 
+
+
+
+    /* responsiviade  */
+    @media (max-width: 768px) {
+   
+        .videoFundo {
+            height: 50vh; 
+        }
+        
+    .menuSuperior {
+        padding: 1rem; 
+        flex-direction: column; 
+        align-items: center; 
+        height: auto; 
+    }
+
+    #icone {
+        flex-direction: column; 
+        margin-bottom: 1rem;
+    }
+
+    #icone img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #menu {
+        flex-direction: column; 
+        gap: 1rem; 
+        align-items: center; 
+    }
+
+    #menu a {
+        padding: 0.5rem; 
+        font-size: 1.1rem; 
+    }
+
+    #fraseEfeito h1 {
+        margin-top: 4em; 
+        margin-left: 0; 
+        font-size: 2rem; 
+    }
+}
+
+/* Responsividade - Telas menores que 480px */
+@media (max-width: 480px) {
+    /* Ajustes adicionais para telas muito pequenas */
+    #icone p {
+        font-size: 1.2rem; /* Ajusta o tamanho do texto do ícone */
+    }
+
+    .videoFundo {
+        height: 40vh; /* Menor altura do vídeo em telas muito pequenas */
+    }
+
+    #fraseEfeito h1 {
+        font-size: 1.5rem; /* Reduz ainda mais o tamanho da frase */
+        margin-top: 3em;
+    }
+
+    #menu a {
+        font-size: 1rem; /* Reduz o tamanho da fonte dos links */
+    }
+
+    #menu {
+        gap: 0.5rem; /* Menor espaçamento entre os links */
+    }
+}

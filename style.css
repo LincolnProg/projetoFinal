@@ -1,0 +1,33 @@
+@import url(./Css/header.css);
+@import url(./Css/main.css);
+@import url(./Css/footer.css); 
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Chaves";
+    src: url(./Assets/Fontes/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+
+body{
+    font-size: 62.5%; 
+    font-family: "Chaves"; 
+    height: 200vh; 
+} 
+
+a{
+    text-decoration: none;
+    list-style: none; 
+    color: white;
+
+}
+

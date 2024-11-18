@@ -1,0 +1,101 @@
+
+
+
+.contatos {
+    margin-top: 4rem;
+background-color: #ffff; 
+height: 14rem;
+}
+
+.contatos a img{
+    margin: 5rem;
+    margin-top: 1rem;
+padding: 2rem;
+justify-content: center;
+align-items: center;
+}
+
+.criadorDoSiteBrabo {
+    background-color: #303030;
+    height: 10rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 1rem;               
+}
+
+.criadorDoSiteBrabo a {
+    display: inline-block;   
+    padding: 1rem;         
+}
+
+.criadorDoSiteBrabo a img {
+    width: 2rem;
+    height: 2rem; 
+}
+
+/* responsividade */
+
+.contatos {
+    margin-top: 4rem;
+    background-color: #ffff;
+    height: auto; 
+    padding: 2rem; 
+    text-align: center;
+}
+
+.contatos a img {
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.criadorDoSiteBrabo {
+    background-color: #303030;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap; 
+}
+
+
+.criadorDoSiteBrabo a {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.criadorDoSiteBrabo a img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+@media (max-width: 768px) {
+ 
+    .contatos {
+        padding: 1rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .contatos a img {
+        margin: 1rem;
+        padding: 1rem;
+        max-width: 50%; 
+        height: auto;
+    }
+
+   
+    .criadorDoSiteBrabo {
+        flex-direction: column;
+        gap: 1rem; 
+        height: auto;
+    }
+
+  
+ 
